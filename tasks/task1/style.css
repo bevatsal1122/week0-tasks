@@ -1,0 +1,32 @@
+body {
+   background-color: rgba(0, 0, 255, 0.746);
+   font-family: Bahnschrift SemiBold;
+   align-items: center;
+}
+#name, #passcode {
+   border: 3px solid black;
+}
+a {
+   text-decoration: none;
+   color: black;
+}
+a:hover {
+   text-decoration: underline;
+   color: green;
+}
+#outer {
+   background-color: white;
+   align-content: center;
+   padding-top: 20px;
+   margin-top: 33vh;
+   margin-left: 35vw;
+   height: 34vh;
+   width: 30vw;
+}
+#button {
+   width: 80px;
+   height: 40px;
+   background-color: rgb(22, 190, 22);
+   border: 2px rgba(22, 190, 22);
+   color: white;
+}

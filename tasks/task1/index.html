@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Week 0 - Task 1</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <script type="text/javascript">
+      var Details=[];
+      function popstore()
+      {
+         Details.push(document.getElementById("name").value);
+         Details.push(document.getElementById("passcode").value);
+         console.log(Details);
+         alert("You have logged in!");
+      }
+   </script>
+
+   <div align="center" id="outer">
+      
+      <form align="center">
+         <label style="font-size: 25px; font-weight: bold;">Login</label>
+         <br><br>
+         <input type="text" placeholder="Email" id="name"><br><br>
+         <input type="password" placeholder="Password" id="passcode"><br><br>
+         <button type="button" id="button" onclick="popstore();">
+            <b style="font-size: 18px;">Login</b>
+         </button>
+      </form>
+
+      <br>
+
+      <a href="https://www.kjscecodecell.com" target="_blank">
+         <b>Go to CodeCell Page!</b>
+      </a>
+
+   </div>
+</body>
+</html>
